@@ -1,0 +1,9 @@
+
+logs/
+node_modules/
+config.php
+package-lock.json
+credenciales/
+error-*
+private/
+aplication/config.local.php
