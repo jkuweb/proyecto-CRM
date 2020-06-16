@@ -87,7 +87,7 @@ class Cliente {
 
 class ClienteView extends CommonView{
 
-	 function agregar($error=[]) {                                               
+     function agregar($error=[]) {                                               
         settype($error, "array");                                               
         extract($_POST);                                                        
         $template = $this->get_rendered_template();                             
@@ -112,7 +112,7 @@ class ClienteView extends CommonView{
     }
 
     function ver($cliente) {
-		$template = $this->get_rendered_template();
+	$template = $this->get_rendered_template();
 
         $path = PATH_MODULO_CLIENTE . '/cliente_ver.html';
 		$dict = [
